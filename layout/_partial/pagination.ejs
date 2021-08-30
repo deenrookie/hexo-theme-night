@@ -1,0 +1,9 @@
+<div id="fenye">
+    <% if(page.prev){%>
+    <a  style="color: #ff5f56;" href="<%- config.root %><%- page.prev_link %>"><%= theme.prev %>Previous</a>
+    <% }%>
+    <% if(page.next){%>
+    <a  style="color: #ff5f56;" href="<%- config.root  %><%- page.next_link %>"><%= theme.next %>Next</a>
+    <%}%>
+</div>
+<div style="height:30px;"></div>
